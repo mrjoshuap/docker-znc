@@ -19,6 +19,7 @@ RUN chown -R znc:znc ${DATADIR} \
 EXPOSE 6667
 
 USER znc
+WORKDIR "${DATADIR}"
 
 RUN ls -l ${DATADIR}/configs/znc.conf
 
