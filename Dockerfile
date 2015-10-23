@@ -9,17 +9,18 @@ RUN dnf -y upgrade \
 
 ADD docker-entrypoint.sh /entrypoint.sh
 
-RUN mkdir -p /var/lib/znc/configs
-ADD znc.conf.default /var/lib/znc/configs/znc.conf
-RUN chown -R znc:znc /var/lib/znc \
-  && chmod 644 /var/lib/znc/configs/znc.conf \
-  && tree /var/lib/znc
+ENV DATADIR "/tmp/znc"
+RUN mkdir -p ${DATADIR}/configs
+ADD znc.conf.default ${DATADIR}/configs/znc.conf
+RUN chown -R znc:znc ${DATADIR} \
+  && chmod 644 ${DATADIR}/configs/znc.conf \
+  && tree ${DATADIR}
 
 EXPOSE 6667
 
 USER znc
 
-RUN ls -l /var/lib/znc/configs/znc.conf
+RUN ls -l ${DATADIR}/configs/znc.conf
 
 ENTRYPOINT ["/entrypoint.sh"]
 CMD [""]

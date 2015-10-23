@@ -1,16 +1,9 @@
 #! /usr/bin/env bash
 
 # Options.
-DATADIR="/var/lib/znc"
+DATADIR="${DATADIR:-/tmp/znc}"
 
-ls -la "${DATADIR}/configs/znc.conf" "${DATADIR}/configs" "${DATADIR}"
 tree ${DATADIR}
-
-# Create default config if it doesn't exist
-if [ ! -f "${DATADIR}/configs/znc.conf" ]; then
-  mkdir -p "${DATADIR}/configs"
-  cp /znc.conf.default "${DATADIR}/configs/znc.conf"
-fi
 
 # Make sure $DATADIR is owned by znc user. This effects ownership of the
 # mounted directory on the host machine too.
@@ -23,4 +16,3 @@ else
   # Start ZNC.
   znc --foreground --datadir="$DATADIR" $@
 fi
-
