@@ -13,6 +13,7 @@ RUN mkdir -p /var/lib/znc/configs
 ADD znc.conf.default /var/lib/znc/configs/znc.conf
 RUN chown -R znc:znc /var/lib/znc \
   && chmod 644 /var/lib/znc/configs/znc.conf
+  && tree /var/lib/znc
 
 EXPOSE 6667
 

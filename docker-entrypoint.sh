@@ -4,6 +4,7 @@
 DATADIR="/var/lib/znc"
 
 ls -la "${DATADIR}/configs/znc.conf" "${DATADIR}/configs" "${DATADIR}"
+tree ${DATADIR}
 
 # Create default config if it doesn't exist
 if [ ! -f "${DATADIR}/configs/znc.conf" ]; then
