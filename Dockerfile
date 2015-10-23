@@ -4,7 +4,7 @@ FROM fedora:22
 MAINTAINER Josh Preston <jpreston@redhat.com>
 
 RUN dnf -y upgrade \
-    && dnf -y install znc \
+    && dnf -y install tree sudo znc \
     && dnf clean all
 
 ADD docker-entrypoint.sh /entrypoint.sh
