@@ -32,42 +32,6 @@ LoadModule = webadmin
     LoadModule = simple_away
     Server     = irc-2.devel.redhat.com 6667
 
-    <Chan #aos>
-    </Chan>
-    <Chan #atomic>
-    </Chan>
-    <Chan #central>
-    </Chan>
-    <Chan #cloud>
-    </Chan>
-    <Chan #gss-na>
-    </Chan>
-    <Chan #gss>
-    </Chan>
-    <Chan #kernel>
-    </Chan>
-    <Chan #kvm>
-    </Chan>
-    <Chan #openshift>
-    </Chan>
-    <Chan #rhel6>
-    </Chan>
-    <Chan #rhel7>
-    </Chan>
-    <Chan #salab>
-    </Chan>
-    <Chan #satellite5>
-    </Chan>
-    <Chan #satellite6>
-    </Chan>
-    <Chan #satellite>
-    </Chan>
-    <Chan #sce-central>
-    </Chan>
-    <Chan #sysadmin>
-    </Chan>
-    <Chan #theotherguys>
-    </Chan>
   </Network>
 </User>
 
