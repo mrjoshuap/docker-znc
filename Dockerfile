@@ -11,7 +11,7 @@ ADD docker-entrypoint.sh /entrypoint.sh
 ADD znc.conf.default znc.conf.default
 RUN chmod 644 /znc.conf.default
 
-VOLUME /var/lib/znc
+#VOLUME /var/lib/znc
 RUN mkdir -p /var/lib/znc && chown -R znc:znc /var/lib/znc
 
 EXPOSE 6667
