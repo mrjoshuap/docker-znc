@@ -8,11 +8,11 @@ RUN dnf -y upgrade \
     && dnf clean all
 
 ADD docker-entrypoint.sh /entrypoint.sh
-ADD znc.conf.default znc.conf.default
 RUN chmod 644 /znc.conf.default
 
 #VOLUME /var/lib/znc
-RUN mkdir -p /var/lib/znc && chown -R znc:znc /var/lib/znc
+RUN mkdir -p /var/lib/znc/configs && chown -R znc:znc /var/lib/znc
+ADD znc.conf.default /var/lib/znc/configs/znc.conf
 
 EXPOSE 6667
 
