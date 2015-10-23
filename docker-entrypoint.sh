@@ -1,25 +1,7 @@
 #! /usr/bin/env bash
 
 # Options.
-DATADIR="/znc-data"
-
-# Build modules from source.
-if [ -d "${DATADIR}/modules" ]; then
-  # Store current directory.
-  cwd="$(pwd)"
-
-  # Find module sources.
-  modules=$(find "${DATADIR}/modules" -name "*.cpp")
-
-  # Build modules.
-  for module in $modules; do
-    cd "$(dirname "$module")"
-    znc-buildmod "$module"
-  done
-
-  # Go back to original directory.
-  cd "$cwd"
-fi
+DATADIR="/var/lib/znc"
 
 # Create default config if it doesn't exist
 if [ ! -f "${DATADIR}/configs/znc.conf" ]; then
@@ -31,5 +13,11 @@ fi
 # mounted directory on the host machine too.
 chown -R znc:znc "$DATADIR"
 
-# Start ZNC.
-exec sudo -u znc znc --foreground --datadir="$DATADIR" $@
+if [ "$1" = "bash" ]; then
+  # gimme a shell
+  /bin/bash
+else
+  # Start ZNC.
+  znc --foreground --datadir="$DATADIR" $@
+fi
+
