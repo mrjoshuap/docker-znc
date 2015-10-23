@@ -18,5 +18,7 @@ EXPOSE 6667
 
 USER znc
 
+RUN ls -l /var/lib/znc/configs/znc.conf
+
 ENTRYPOINT ["/entrypoint.sh"]
 CMD [""]
