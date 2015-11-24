@@ -22,23 +22,20 @@ RUN dnf -y upgrade \
     && dnf clean all
 
 # Create 'znc' account we will use to run Ruby application
-RUN mkdir -p ${DATADIR}/configs
+RUN mkdir -p ${DATADIR}/configs \
+    && chmod -R 777 ${DATADIR}
 
 # Add our default configuration
 ADD znc.conf.default ${DATADIR}/configs/znc.conf
 
 # setup our permissions
-RUN chown -R 995:0 ${DATADIR} \
-  && chmod 640 ${DATADIR}/configs/znc.conf
+RUN chmod 666 ${DATADIR}/configs/znc.conf
 
 # add our entry point file
 ADD docker-entrypoint.sh /usr/local/bin/entrypoint.sh
 
 # expose our service
 EXPOSE 6667
-
-# run as our desired user
-USER 995
 
 # run out of the data directory
 WORKDIR "${DATADIR}"
