@@ -7,9 +7,7 @@ MAINTAINER Josh Preston <jpreston@redhat.com>
 
 # set our default environment values
 ENV DATADIR="/var/lib/znc" \
-    ZNC_VERSION="1.6.1-1" \
-    ZNC_USER="995" \
-    ZNC_GROUP="0"
+    ZNC_VERSION="1.6.1-1"
 
 # setup our openshift labels
 LABEL io.k8s.description="ZNC is a portable, open source IRC bouncer written in C++." \
@@ -30,7 +28,7 @@ RUN mkdir -p ${DATADIR}/configs
 ADD znc.conf.default ${DATADIR}/configs/znc.conf
 
 # setup our permissions
-RUN chown -R ${ZNC_USER}:${ZNC_GROUP} ${DATADIR} \
+RUN chown -R 995:0 ${DATADIR} \
   && chmod 640 ${DATADIR}/configs/znc.conf
 
 # add our entry point file
@@ -40,7 +38,7 @@ ADD docker-entrypoint.sh /usr/local/bin/entrypoint.sh
 EXPOSE 6667
 
 # run as our desired user
-USER ${ZNC_USER}
+USER 995
 
 # run out of the data directory
 WORKDIR "${DATADIR}"
