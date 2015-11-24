@@ -10,5 +10,5 @@ if [ "$1" = "bash" ]; then
   /bin/bash
 else
   # Start ZNC.
-  znc --foreground --datadir="$DATADIR" $@
+  znc --foreground --debug --datadir="$DATADIR" $@
 fi
