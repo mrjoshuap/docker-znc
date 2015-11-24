@@ -13,7 +13,7 @@ ENV DATADIR="/var/lib/znc" \
 LABEL io.k8s.description="ZNC is a portable, open source IRC bouncer written in C++." \
       io.k8s.display-name="ZNC 1.6.1-1" \
       io.openshift.expose-services="6667:ircd" \
-      io.openshift.tags="chat,irc-bouncer" \
+      io.openshift.tags="instant-app,irc-bouncer" \
       io.openshift.non-scalable="true"
 
 # Upgrade system and install znc
