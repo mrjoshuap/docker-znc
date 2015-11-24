@@ -1,27 +1,49 @@
 # version 1.6.1-1
 # docker-version 1.8.2
-FROM fedora:22
+FROM fedora:23
+
+# maybe get some help?  probably not...
 MAINTAINER Josh Preston <jpreston@redhat.com>
 
+# set our default environment values
+ENV DATADIR="/var/lib/znc" \
+    ZNC_VERSION="1.6.1-1" \
+    ZNC_USER="znc"
+
+# setup our openshift labels
+LABEL io.k8s.description="ZNC is a portable, open source IRC bouncer written in C++." \
+      io.k8s.display-name="ZNC 1.6.1-1" \
+      io.openshift.expose-services="6667:ircd" \
+      io.openshift.tags="chat,irc-bouncer" \
+      io.openshift.non-scalable="true"
+
+# Upgrade system and install znc
 RUN dnf -y upgrade \
-    && dnf -y install tree sudo znc \
+    && dnf -y install tree znc \
     && dnf clean all
 
-ADD docker-entrypoint.sh /entrypoint.sh
-
-ENV DATADIR "/tmp/znc"
+# Create 'znc' account we will use to run Ruby application
 RUN mkdir -p ${DATADIR}/configs
-ADD znc.conf.default ${DATADIR}/configs/znc.conf
-RUN chown -R znc:znc ${DATADIR} \
-  && chmod 644 ${DATADIR}/configs/znc.conf \
-  && tree ${DATADIR}
 
+# Add our default configuration
+ADD znc.conf.default ${DATADIR}/configs/znc.conf
+
+# setup our permissions
+RUN chown -R ${ZNC_USER}:${ZNC_GROUP} ${DATADIR} \
+  && chmod 640 ${DATADIR}/configs/znc.conf
+
+# add our entry point file
+ADD docker-entrypoint.sh /usr/local/bin/entrypoint.sh
+
+# expose our service
 EXPOSE 6667
 
-USER znc
+# run as our desired user
+USER ${ZNC_USER}
+
+# run out of the data directory
 WORKDIR "${DATADIR}"
 
-RUN ls -l ${DATADIR}/configs/znc.conf
-
-ENTRYPOINT ["/entrypoint.sh"]
+# use our entry point script with no command
+ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
 CMD [""]

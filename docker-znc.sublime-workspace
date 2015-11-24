@@ -1,0 +1,1296 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ZNC",
+				"ZNC_USER_NICK"
+			],
+			[
+				"idm",
+				"idm-clients"
+			],
+			[
+				"all",
+				"allow_editors"
+			],
+			[
+				"IP",
+				"IP_IDM_1"
+			],
+			[
+				"IP_",
+				"IP_IDM_1"
+			],
+			[
+				"USER",
+				"USER_LAST"
+			],
+			[
+				"OS",
+				"OSTREE_REPO"
+			],
+			[
+				"OSTRE",
+				"OSTREE_ORIGIN_REF"
+			],
+			[
+				"OSTREE_",
+				"OSTREE_GPG_VERIFY"
+			],
+			[
+				"OSTREE",
+				"OSTREE_ENABLE_REPOS"
+			],
+			[
+				"sour",
+				"source_network"
+			],
+			[
+				"so",
+				"source_network"
+			],
+			[
+				"blade",
+				"bladecenter"
+			],
+			[
+				"encr",
+				"encrypted"
+			],
+			[
+				"PAY",
+				"PAYCOIN_PID"
+			],
+			[
+				"pay",
+				"Paycoin"
+			],
+			[
+				"en",
+				"encrypted"
+			],
+			[
+				"PA",
+				"PAYCOIN_DATADIR"
+			],
+			[
+				"start",
+				"start_paycoin"
+			],
+			[
+				"P",
+				"PAYCOIN_PID"
+			],
+			[
+				"sta",
+				"start_paycoin"
+			],
+			[
+				"defaul",
+				"default_account"
+			],
+			[
+				"gen",
+				"generate_default_account"
+			],
+			[
+				"wait",
+				"wait_for_paycoind"
+			],
+			[
+				"wa",
+				"wait_for_paycoind"
+			],
+			[
+				"gene",
+				"generate_config"
+			],
+			[
+				"encry",
+				"encryption"
+			],
+			[
+				"cmd",
+				"cmd_opts"
+			],
+			[
+				"dat",
+				"datadir_real"
+			],
+			[
+				"ssh",
+				"ssh_authorized_key"
+			],
+			[
+				"I",
+				"INST_UPDATE"
+			],
+			[
+				"IN",
+				"INST_RECEIVE"
+			],
+			[
+				"INST",
+				"INST_UPDATE"
+			],
+			[
+				"INS",
+				"INST_COMMIT"
+			],
+			[
+				"pre-c",
+				"pre-receive"
+			],
+			[
+				"pre-",
+				"pre-receive"
+			],
+			[
+				"INST_P",
+				"INST_UPDATE"
+			],
+			[
+				"INST_",
+				"INST_RECEIVE"
+			],
+			[
+				"mana",
+				"manage_service"
+			],
+			[
+				"dev",
+				"devsuffix"
+			],
+			[
+				"pup",
+				"puppet-dnsmasq"
+			],
+			[
+				"ex",
+				"exported"
+			],
+			[
+				"host",
+				"hosts_file"
+			],
+			[
+				"conte",
+				"content_real"
+			],
+			[
+				"hosts",
+				"hosts_ensure"
+			],
+			[
+				"con",
+				"config_template"
+			],
+			[
+				"conf",
+				"config_template_real"
+			],
+			[
+				"servic",
+				"service_name"
+			],
+			[
+				"pack",
+				"package_name"
+			],
+			[
+				"defa",
+				"defaultdomain_real"
+			],
+			[
+				"def",
+				"defaultdomain_real"
+			],
+			[
+				"de",
+				"defaultdomain"
+			],
+			[
+				"gento",
+				"gentoo-update"
+			],
+			[
+				"environ",
+				"environment"
+			],
+			[
+				"ref",
+				"refresh-puppet"
+			],
+			[
+				"fo",
+				"forin	for … in … done"
+			],
+			[
+				"issue_sour",
+				"issue_source_real"
+			],
+			[
+				"iss",
+				"issue_source"
+			],
+			[
+				"is",
+				"issue_source"
+			],
+			[
+				"motd",
+				"motd_template_real"
+			],
+			[
+				"mot",
+				"motd_template"
+			],
+			[
+				"path",
+				"paths-gentoo"
+			],
+			[
+				"jail",
+				"jail_template"
+			],
+			[
+				"BUIL",
+				"BUILD_DIR"
+			],
+			[
+				"package",
+				"package_source"
+			],
+			[
+				"RPM",
+				"RPM_PKG"
+			],
+			[
+				"RPM_",
+				"RPM_PKG"
+			],
+			[
+				"B",
+				"BUILD_NUMBER"
+			],
+			[
+				"BU",
+				"BUILD_VERSION"
+			],
+			[
+				"BUI",
+				"BUILD_DIR"
+			],
+			[
+				"zabbix",
+				"zabbix_agentd"
+			],
+			[
+				"pur",
+				"purge_ignore"
+			],
+			[
+				"confi",
+				"config_template"
+			],
+			[
+				"RP",
+				"RPM_FILE"
+			],
+			[
+				"diff",
+				"diff_template"
+			],
+			[
+				"oper",
+				"operatingsystemmajrelease"
+			],
+			[
+				"operat",
+				"operatingsystem"
+			],
+			[
+				"certs",
+				"cacerts_dir"
+			],
+			[
+				"ownin",
+				"owning_group"
+			],
+			[
+				"owning",
+				"owning_user"
+			],
+			[
+				"name",
+				"nameserver"
+			],
+			[
+				"out",
+				"output_real"
+			],
+			[
+				"acce",
+				"accept"
+			],
+			[
+				"connect",
+				"connect_array"
+			],
+			[
+				"chroot",
+				"chroot_real"
+			],
+			[
+				"file",
+				"file_line"
+			],
+			[
+				"ca",
+				"ca_file"
+			],
+			[
+				"ssl",
+				"ssl_version_real"
+			],
+			[
+				"accept",
+				"accept_ip"
+			],
+			[
+				"cla",
+				"Class"
+			],
+			[
+				"com",
+				"compression"
+			],
+			[
+				"uid",
+				"uid_real"
+			],
+			[
+				"dser",
+				"dseriesagent"
+			],
+			[
+				"latc",
+				"latchctl"
+			],
+			[
+				"DSW",
+				"DSW_URL"
+			],
+			[
+				"SecRule",
+				"SecRuleEngine"
+			],
+			[
+				"instal",
+				"install_dir"
+			],
+			[
+				"resolv",
+				"resolvconf"
+			],
+			[
+				"jenk",
+				"jenkins_users"
+			],
+			[
+				"envion",
+				"environment"
+			],
+			[
+				"String",
+				"StringBuffer"
+			],
+			[
+				"DS",
+				"DSW_APACHE_HOME"
+			],
+			[
+				"Re",
+				"RewriteRule"
+			],
+			[
+				"Sec",
+				"SecRuleUpdateTargetById"
+			],
+			[
+				"mod_",
+				"mod_security"
+			],
+			[
+				"dswS",
+				"DSWstorage"
+			],
+			[
+				"REQ",
+				"REQUEST_HEADERS"
+			],
+			[
+				"Allow",
+				"AllowIP"
+			],
+			[
+				"STAT",
+				"STATIC_CONTENT_VERSION"
+			],
+			[
+				"SecRul",
+				"SecRuleUpdateTargetByTag"
+			],
+			[
+				"socket",
+				"socket_timeout"
+			],
+			[
+				"A",
+				"Allow"
+			],
+			[
+				"mem",
+				"memberOf"
+			],
+			[
+				"OV",
+				"OVERRIDE_OBJECT"
+			],
+			[
+				"DSW_",
+				"DSW_INSTANCE"
+			],
+			[
+				"WS",
+				"WS_CALL"
+			],
+			[
+				"FILE",
+				"FILETIME"
+			],
+			[
+				"jb",
+				"jboss-ews"
+			],
+			[
+				"EWS",
+				"EWS_VERSION"
+			],
+			[
+				"jboss",
+				"jboss-ews"
+			],
+			[
+				"ZIP",
+				"ZIP_EWS_PATCH1"
+			],
+			[
+				"WEB",
+				"WEB_ADMIN"
+			],
+			[
+				"ZIP_EW",
+				"ZIP_EWS_PATCH1"
+			],
+			[
+				"Z",
+				"ZIP_EWS_MODSEC"
+			],
+			[
+				"ow",
+				"owasp-modsecurity-crs-master"
+			],
+			[
+				"ZIP_EWS_MOD",
+				"ZIP_EWS_MODSEC_CRS"
+			],
+			[
+				"ZIP_",
+				"ZIP_EWS_MODSEC_CRS"
+			],
+			[
+				"mo",
+				"mod_security"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "git push",
+		"selected_items":
+		[
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"pci",
+				"Package Control: Install Package"
+			],
+			[
+				"color",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"pa",
+				"Package Control: List Packages"
+			],
+			[
+				"commit",
+				"Git: Commit"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"syn",
+				"Syntax Manager: Reload Settings"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git clone",
+				"Git: Diff Current File (Ignore Whitespace)"
+			],
+			[
+				"git branch",
+				"Git: New Branch"
+			],
+			[
+				"git bran",
+				"Git: New Branch"
+			],
+			[
+				":0",
+				":0 - BOF"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"p",
+				"Package Control: Enable Package"
+			],
+			[
+				"pp",
+				"Package Control: Install Package"
+			],
+			[
+				"ppp",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"",
+				"ASCII Decorator: Default Font"
+			],
+			[
+				"upp",
+				"Convert Case: Upper Case"
+			],
+			[
+				"UP",
+				"Convert Case: Upper Case"
+			],
+			[
+				"ssss",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"git flow",
+				"Git Flow: Feature Start"
+			],
+			[
+				"git",
+				"Git: Commit history"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 629.0
+	},
+	"console":
+	{
+		"height": 321.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": true,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/jpreston/Development/git/docker-znc"
+	],
+	"file_history":
+	[
+		"/Users/jpreston/Development/git/docker-znc/docker-entrypoint.sh",
+		"/Users/jpreston/Development/git/docker-znc/Dockerfile",
+		"/Users/jpreston/Development/git/docker-znc/znc.conf.default",
+		"/Users/jpreston/Development/git/idm-quickstart/provision_client7_1.sh",
+		"/Users/jpreston/Development/git/idm-quickstart/provision_idm_2.sh",
+		"/Users/jpreston/Development/git/idm-quickstart/Vagrantfile",
+		"/Users/jpreston/Development/git/idm-quickstart/provision.sh",
+		"/Users/jpreston/Development/git/idm-quickstart/provision_idm_1.sh",
+		"/Users/jpreston/Development/git/idm-quickstart/sections/02-managing-identity.md",
+		"/Users/jpreston/Development/git/idm-quickstart/sections/01-installation.md",
+		"/Users/jpreston/Development/git/idm-quickstart/README.md",
+		"/Users/jpreston/Development/git/idm-quickstart/sections/00-prerequisites.md",
+		"/Users/jpreston/Development/git/idm-quickstart/secure.env",
+		"/Users/jpreston/Development/git/satellitesizing/db/migrate/20151021000025_create_products.rb",
+		"/Users/jpreston/Development/git/satellitesizing/db/migrate/20151021000849_create_deployments.rb",
+		"/Users/jpreston/Development/git/satellitesizing/app/models/deployment.rb",
+		"/Users/jpreston/Development/git/satellitesizing/app/models/datacenter.rb",
+		"/Users/jpreston/Development/git/satellitesizing/app/models/product.rb",
+		"/Users/jpreston/Development/git/satellitesizing/app/models/channel.rb",
+		"/Users/jpreston/Development/git/satellitesizing/db/migrate/20151020223803_create_channels.rb",
+		"/Users/jpreston/Development/git/satellitesizing/db/migrate/20151020235331_create_datacenters.rb",
+		"/Users/jpreston/Development/git/satellitesizing/Gemfile",
+		"/Users/jpreston/Development/git/satellitesizing/test/fixtures/channels.yml",
+		"/Users/jpreston/Development/git/satellitesizing/test/fixtures/datacenters.yml",
+		"/Users/jpreston/Desktop/DeskDrawer/katello-install notes",
+		"/Users/jpreston/Development/Private/git/puppet/r10k-control/cloud-config.test",
+		"/Users/jpreston/Development/Private/git/puppet/r10k-control/install.sh",
+		"/Users/jpreston/Development/Private/git/puppet/r10k-control/tagmail.conf",
+		"/Users/jpreston/Development/Private/git/puppet/r10k-control/manifests/install.pp",
+		"/Users/jpreston/Development/Private/git/puppet/r10k-control/hiera.yaml",
+		"/Users/jpreston/Development/Private/git/puppet/r10k-control/refresh-puppet.sh",
+		"/Users/jpreston/Development/Private/git/puppet/r10k-control/site/profiles/manifests/init.pp",
+		"/Users/jpreston/Development/Private/git/puppet/r10k-control/site/profiles/manifests/cloud-config.yaml",
+		"/Users/jpreston/Development/Private/git/puppet/r10k-control/site/profiles/manifests/users.pp",
+		"/Users/jpreston/Development/Private/git/prestoncentral-gitolite-admin/keydir/rhel7ws.joshuas-macbook-pro.local/root.pub",
+		"/Users/jpreston/Development/Private/git/prestoncentral-gitolite-admin/keydir/fedora22ws.joshuas-macbook-pro.local/root.pub",
+		"/Users/jpreston/Development/Private/git/puppet/r10k-control/site/roles/manifests/init.pp",
+		"/Users/jpreston/Development/DSW/git/dsw-com-jboss-ews/dsw-com-jboss-ews-build/src/owasp-modsecurity-crs/base_rules/modsecurity_crs_20_protocol_violations.conf-e",
+		"/Volumes/Google Drive/convertio.co/Icon_RH_Buildings_Industry_RGB_Flat.svg",
+		"/Users/jpreston/Development/git/SATraining/atomicmirror/Dockerfile",
+		"/Users/jpreston/Development/git/SATraining/atomicmirror/atomicmirror_template.service",
+		"/Users/jpreston/Development/git/SATraining/atomicmirror/run.sh",
+		"/Users/jpreston/Development/git/SATraining/atomicmirror/install.sh",
+		"/Users/jpreston/Development/git/Fedora-Dockerfiles/sssd/Dockerfile",
+		"/Users/jpreston/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/jpreston/Dropbox/Preferences.sublime-settings",
+		"/Users/jpreston/Development/git/SATraining/intro/5_spcContainers.md",
+		"/Users/jpreston/Development/git/SATraining/intro/1_deployAtomicHosts.md",
+		"/Users/jpreston/Development/git/SATraining/README.md",
+		"/Users/jpreston/Development/git/SATraining/advanced/1_configureAtomicMaster.md",
+		"/Users/jpreston/Development/git/SATraining/advanced/2_configureFlanneld.md",
+		"/Users/jpreston/Development/git/SATraining/advanced/3_configureKubernetes.md",
+		"/Users/jpreston/Development/git/SATraining/advanced/4_configureAtomicHosts.md",
+		"/Users/jpreston/Development/git/SATraining/advanced/5_deployApplications.md",
+		"/Users/jpreston/Development/git/SATraining/intro/4_svcContainers.md",
+		"/Users/jpreston/Development/git/SATraining/intro/3_manageAtomicHosts.md",
+		"/Users/jpreston/Development/git/SATraining/intro/2_configureStorage.md",
+		"/Users/jpreston/Development/git/SATraining/intro/6_installTools.md",
+		"/Users/jpreston/Development/git/SATraining/intro/manageAtomicHosts.md",
+		"/Users/jpreston/Development/git/SATraining/advanced/configureAtomicHosts.md",
+		"/Users/jpreston/Development/git/SATraining/intro/spcContainers.md",
+		"/Users/jpreston/Development/git/SATraining/intro/installTools.md",
+		"/Users/jpreston/Development/git/SATraining/intro/deployAtomicHosts.md",
+		"/Users/jpreston/Development/git/SATraining/prepare/README.md",
+		"/Users/jpreston/Development/git/SATraining/advanced/deployApplications.md",
+		"/Users/jpreston/Development/git/SATraining/advanced/configFlanneld.md",
+		"/Users/jpreston/Development/git/SATraining/advanced/ConfigureAtomicHosts.md",
+		"/Users/jpreston/Development/git/SATraining/intro/configureStorage.md",
+		"/Users/jpreston/Development/git/SATraining/advanced/configureAtomicMaster.md",
+		"/Users/jpreston/Development/git/SATraining/advanced/configureKubernetes.md",
+		"/Users/jpreston/Development/git/SATraining/intro/svcContainers.md",
+		"/Users/jpreston/Development/git/SATraining/deploy.sh",
+		"/Users/jpreston/Development/git/SATraining/build.sh",
+		"/Users/jpreston/Library/Application Support/Sublime Text 3/Packages/User/SyntaxMgr.sublime-settings",
+		"/Users/jpreston/Development/git/SATraining/prepare/build.sh",
+		"/Users/jpreston/Development/git/SATraining/prepare/readme.md",
+		"/Users/jpreston/Development/git/atomic-site/source/docs/gettingstarted.md",
+		"/Users/jpreston/Development/git/atomic-site/source/docs/compose-your-own-tree.md",
+		"/Users/jpreston/Development/git/SATraining/prepare/index.md",
+		"/Users/jpreston/Development/git/atomic-site/source/docs/host-a-tree-mirror.md",
+		"/Users/jpreston/Development/git/SATraining/localmirror/Dockerfile",
+		"/Users/jpreston/Development/git/SATraining/localmirror/run.sh",
+		"/Users/jpreston/Development/git/SATraining/localmirror/repos/fedora-atomic-22.repo",
+		"/Users/jpreston/Development/git/SATraining/localmirror/repos/centos-atomic-7.repo",
+		"/Users/jpreston/Development/git/SATraining/localmirror/repos/fedora-atomic-21.repo",
+		"/Users/jpreston/Development/git/SATraining/prepare/virsh notes.txt",
+		"/Users/jpreston/Library/Application Support/Sublime Text 3/Packages/User/Distraction Free.sublime-settings",
+		"/Users/jpreston/Library/Application Support/Sublime Text 3/Packages/User/Markdown.sublime-settings",
+		"/Users/jpreston/Development/git/awesome-sysadmin/README.md",
+		"/Users/jpreston/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/jpreston/Development/git/puppet-git-hooks/deploy-git-hook",
+		"/Users/jpreston/Development/git/puppet-git-hooks/README.md",
+		"/Users/jpreston/Development/git/puppet/puppet-dnsmasq/README.md",
+		"/Users/jpreston/Development/DSW/git/puppet/unix/manifests/init.pp",
+		"/Users/jpreston/Development/git/SATraining/prepare/atomic-master/user-data",
+		"/Users/jpreston/Development/git/SATraining/prepare/Fedora-Cloud-Atomic-22-20150521.x86_64.qcow2",
+		"/Users/jpreston/Development/Private/git/prestoncentral/notes/ipa-server-install.txt",
+		"/Users/jpreston/Development/git/SATraining/prepare/deploy.sh",
+		"/Users/jpreston/Development/git/SATraining/.gitignore",
+		"/Users/jpreston/Development/git/SATraining/prepare/176351",
+		"/Users/jpreston/Development/git/SATraining/prepare/atomic-host-03/meta-data",
+		"/Users/jpreston/Development/git/SATraining/prepare/atomic-host-03/user-data",
+		"/Users/jpreston/Development/git/SATraining/prepare/atomic-host-04/user-data",
+		"/Users/jpreston/Development/git/SATraining/prepare/atomic-host-04/meta-data",
+		"/Users/jpreston/Development/git/SATraining/prepare/atomic-host-01/meta-data",
+		"/Users/jpreston/Development/git/SATraining/prepare/atomic-host-01/user-data",
+		"/Users/jpreston/Development/git/SATraining/prepare/atomic-host-02/meta-data",
+		"/Users/jpreston/Development/git/SATraining/prepare/atomic-host-02/user-data",
+		"/Users/jpreston/Development/git/SATraining/prepare/atomic-master/meta-data",
+		"/Users/jpreston/Development/git/SATraining/prepare/footer.html",
+		"/Users/jpreston/Development/git/SATraining/prepare/header.html",
+		"/Users/jpreston/Development/git/SATraining/backup/SATrainingEndToEnd.md",
+		"/Users/jpreston/Development/git/SATraining/atomicDockerLVM.md",
+		"/Users/jpreston/Development/git/firewalld/config/services/elasticsearch.xml",
+		"/Users/jpreston/Development/git/firewalld/config/services/kibana.xml",
+		"/Users/jpreston/Development/git/firewalld/config/services/docker.xml",
+		"/Users/jpreston/Development/git/firewalld/config/services/docker-registry.xml",
+		"/Users/jpreston/Development/git/firewalld/config/services/bitcoin.xml",
+		"/Users/jpreston/Development/git/firewalld/config/services/bitcoin-rpc.xml",
+		"/Users/jpreston/Development/git/firewalld/config/services/bitcoin-testnet.xml",
+		"/Users/jpreston/Development/git/firewalld/config/services/bitcoin-testnet-rpc.xml",
+		"/Users/jpreston/Development/Private/git/jenkins/plugins.txt",
+		"/Users/jpreston/Development/git/firewalld/config/services/candlepin.xml",
+		"/Users/jpreston/Development/git/firewalld/config/services/foreman-proxy.xml",
+		"/Users/jpreston/Development/Private/git/jenkins/ssh/known_hosts",
+		"/Users/jpreston/Development/Private/git/puppet/r10k-control/site/profiles/manifests/legal.pp",
+		"/Users/jpreston/Development/Private/git/jenkins/Dockerfile",
+		"/Users/jpreston/Development/Private/git/puppet/r10k-control/site/profiles/files/iptables-blocks"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/jpreston/Development/DSW/dsw-com-apache-env/dsw-com-apache-build",
+			"/Users/jpreston/Desktop/ATG Web/dsw-com-apache-env/dsw-com-apache-build",
+			"/Users/jpreston/Desktop/ATG Web/dsw-com-apache-env/dsw-com-apache-env-common"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Satellite 5",
+			">>.*$",
+			"{{{",
+			"}}}",
+			"example",
+			"example.test",
+			"EXAMPLE.TEST",
+			"pulp",
+			"templates",
+			"ipa",
+			"rhcloud",
+			"${NAME}/",
+			"atomic",
+			"hooks",
+			"3",
+			"three",
+			"threef",
+			"	{{{",
+			"```",
+			"	```",
+			"uid",
+			"new_au",
+			"GREEDYDATA:audit_addr",
+			"audit_hostname",
+			"hostname",
+			"255.255.255.255",
+			"255.255.255.0",
+			"255.255.0.0",
+			"/home/git",
+			"supplementary",
+			"rh-common",
+			"extras",
+			"optional",
+			"eus",
+			"10.0.1",
+			"dsw-",
+			"add",
+			"sudo",
+			" ",
+			"/home/${user}/.paycoin",
+			"user",
+			" -j BLACKLIST",
+			"iptables -I INPUT -s ",
+			"^Fail2Ban$",
+			"^Fail2Ban",
+			"puppet",
+			"dnsmasq",
+			"v0",
+			"```",
+			"debian",
+			"gentoo",
+			"users",
+			"attr",
+			"ATTRFILE",
+			"${DSW_SERVERROOT}/",
+			"\\s+.*$",
+			"\"",
+			"[ ]+$",
+			"[:space:]+$",
+			"[ ]+$",
+			"\\s+$",
+			"nullmailer",
+			"profiles::nullmailer",
+			"remote[:",
+			"sudo",
+			"target",
+			"use_slot",
+			"portage_use",
+			"latest",
+			"source",
+			"SecCollectionTimeout",
+			"AllowOver",
+			"grc",
+			"66.193.93.3",
+			"66\\.193\\.93\\.3",
+			"74.118.96.34",
+			"passmon",
+			"dsw-passmon",
+			"\"",
+			"\",",
+			" .*$",
+			"verify_stun",
+			"pup01",
+			"\\s\\s\\s+",
+			"\\s\\s\\s\\s+",
+			"notification",
+			"''",
+			"openssl",
+			"openldap",
+			"::ldap",
+			"D",
+			"Q",
+			"cmh",
+			"cmh1plpup01",
+			"ca_file",
+			"fail",
+			"::ldap::",
+			"::openssl::",
+			"-",
+			"pup01",
+			"cmh",
+			"stunnel",
+			"Your name here, unless otherwise noted.",
+			"Author Name <author@domain.com>",
+			"webbuild",
+			"tmp",
+			"^.*[a-zA-Z][a-zA-Z]\\d\\d\\d\\d\\d\\d$",
+			".cmh.dswincq.corp",
+			".domain01.vcdsi.net",
+			"env",
+			"\"UNZIPOPT='-fo'\"",
+			" ",
+			"aep",
+			"ews",
+			"xml",
+			" ",
+			"',",
+			"\\s+ => '",
+			"apple",
+			"stat",
+			"STAT",
+			"environment",
+			"tag",
+			"$1",
+			"^[\\.\\d]+\\s+(.*)\\s+\\d+$",
+			"^[\\.\\d]+\\s+(.*)\\s+\\d_$",
+			"^[\\.\\d]+\\s+(.*)\\s+\\d$",
+			"opt"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"Satellite 6",
+			"",
+			"```",
+			"${DOMAIN}",
+			"${REALM}",
+			"",
+			"{{{",
+			"}}}",
+			"{{{",
+			"```",
+			"AUDIT_ADDR:audit_addr",
+			"32",
+			"24",
+			"16",
+			"/var/lib/gitolite",
+			"192.168.0",
+			"",
+			"remove",
+			"-",
+			"$datadir_real",
+			"",
+			"blacklist ",
+			"blacklist",
+			"",
+			"docker",
+			"`",
+			"redhat",
+			"debian",
+			"vagrant",
+			"",
+			"'",
+			"dnsmasq",
+			"profiles::gentoo::nullmailer",
+			"",
+			"nullmailer",
+			"installed",
+			"74.118.96.34",
+			"74\\.118\\.96\\.34",
+			"grc",
+			"dsw-grc",
+			"",
+			",",
+			"undef",
+			"sqlplus",
+			"sssd",
+			"::openldap",
+			"phl",
+			"phl1plpup02",
+			"",
+			"pup02",
+			"phl",
+			"stunnel-<%= @name -%>",
+			"<%= name -%>",
+			"Designer Shoe Warehouse, Inc.  DSW Inc.",
+			"Josh Preston <JoshPreston@dswinc.com>",
+			"",
+			"'UNZIPOPT=\"-fo\"'",
+			"\\n",
+			"eap",
+			"\\n",
+			"",
+			": ",
+			"${DSW_ENVIRONMENT}",
+			"== $1 ==",
+			"\"",
+			"${install_dir}",
+			"\\#\\#\\#\\#\\# $1\\n\\n",
+			"\\#\\#\\#\\#\\# $1\\n\\n\\* ",
+			"\\#\\#\\#\\#\\# $1\\n\\n\\*",
+			"\\#\\#\\#\\#\\# $1\\n\\*",
+			"##### $1\\n\\*",
+			"\\*$1\\*",
+			"=>",
+			"",
+			"#",
+			"",
+			"gitolite_admins",
+			"dsw-com-jboss-ews",
+			"ssh://esgit@svn.dswinc.corp/dsw-com-jboss-ews",
+			"",
+			"\\n",
+			"",
+			"\\n",
+			"",
+			"\\.",
+			"$(sudo networksetup -listallnetworkservices | grep -v \\*)",
+			"IFS=$'\\n'",
+			"IFS=$(echo -en \"\\n\\b\")",
+			"IFS=$'\\n'",
+			"\\*",
+			"es",
+			"SetEnvIfNoCase",
+			"X-Forwarded-For",
+			"$HOSTNAMEORIPADDRESS",
+			"$DST_PORT",
+			"X-Forwarded-For",
+			"/data",
+			"",
+			"10.0.1",
+			"              ",
+			"$2 $1 $3 $4",
+			"",
+			"$1",
+			"",
+			"BITCOIND_",
+			"bitcoind",
+			"",
+			"\\n",
+			"",
+			"****MASKED****",
+			"${DSW_ENVIRONMENT}",
+			"${1}",
+			"",
+			"data/apps/apache2/monitoring-",
+			"",
+			"apps/apache2",
+			"",
+			"$EWS_VERSION",
+			"",
+			"sbin",
+			"cscw0",
+			"jboss-ews-2.1",
+			"2.1",
+			"2.1.0",
+			"ZIP_DSW_CRONOLOG",
+			"${DSW_ENVIRONMENT}",
+			"spacewalk-repo-sync --channel",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 386.0
+	},
+	"pinned_build_system": "",
+	"project": "docker-znc.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"openstack",
+				"Private Puppet git/r10k-control/site/profiles/manifests/redhat/openstack.pp"
+			],
+			[
+				"erb",
+				"puppet/sysctl/templates/sysctl.d-file.erb"
+			],
+			[
+				"flow",
+				"dsw-com-jboss-ews-env-common/monitoring-scripts/flowrate.www.prod2.dsw.com"
+			],
+			[
+				"tim",
+				"dsw-com-jboss-ews-env-common/monitoring-scripts/timejk"
+			],
+			[
+				"common",
+				"dsw-com-jboss-ews-env-test-csc/conf/common.env"
+			],
+			[
+				"common.en",
+				"dsw-com-jboss-ews-env-test/conf/common.env"
+			],
+			[
+				"unin",
+				"dsw-com-jboss-ews-env-common/sbin/uninstall.sh"
+			],
+			[
+				"rese",
+				"dsw-com-jboss-ews-env-common/sbin/reset.sh"
+			],
+			[
+				"common.env",
+				"dsw-com-jboss-ews-env-stage2-csc/conf/common.env"
+			],
+			[
+				"comm",
+				"dsw-com-jboss-ews-env-prod2-csc/conf/common.env"
+			],
+			[
+				"subl",
+				"dsw-com-jboss-ews.sublime-project"
+			],
+			[
+				"siteup",
+				"dsw-com-jboss-ews-env-common/scripts/siteup"
+			],
+			[
+				"test_",
+				"dsw-com-jboss-ews-env-common/webbuild/test_http_configuration.sh"
+			],
+			[
+				"deply",
+				"dsw-com-jboss-ews-env-common/webbuild/deply-conf.sh"
+			],
+			[
+				"atgweb",
+				"dsw-com-jboss-ews-env-common/sudoers.d/atgweb"
+			],
+			[
+				"shed",
+				"dsw-com-jboss-ews-env-common/scripts/shedctl"
+			],
+			[
+				"all",
+				"dsw-com-jboss-ews-env-common/scripts/allsitesup"
+			],
+			[
+				"apachectl",
+				"dsw-com-jboss-ews-env-common/sbin/apachectl"
+			],
+			[
+				"apache2",
+				"dsw-com-jboss-ews-env-common/init.d/apache2"
+			],
+			[
+				"latch",
+				"dsw-com-jboss-ews-env-common/init.d/latchctl"
+			],
+			[
+				"03cac",
+				"dsw-com-jboss-ews-env-common/conf/common-conf.d/03caching.conf"
+			],
+			[
+				"com",
+				"dsw-com-jboss-ews-env-dev5/conf/common.env"
+			],
+			[
+				"workers",
+				"dsw-com-apache-env-dev4/conf/workers.properties"
+			],
+			[
+				"worker",
+				"dsw-com-apache-env-local/conf/workers.properties"
+			],
+			[
+				"ls",
+				"dsw-com-apache-env-common/conf/local-ssl.conf"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"jboss",
+				"jbosseap::service"
+			]
+		],
+		"width": 521.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 245.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

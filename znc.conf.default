@@ -17,21 +17,21 @@ Version = 1.6.1
 </Listener>
 LoadModule = webadmin
 
-<User jpreston>
-  Pass       = sha256#b431b77c9c48187f0d71c7362b15a68cb4ad7db5ca6775c7472ebd45be590b1e#/5R)yUGkx++HaP3ZmaU+#
+// user  : password
+// admin : ircb0uncer
+<User admin>
   Admin      = true
-  Nick       = jpreston
-  AltNick    = jpreston_
-  Ident      = jpreston
-  RealName   = Josh Preston
+  Nick       = admin
+  AltNick    = admin_
+  Ident      = admin
+  RealName   = Administrator
   LoadModule = chansaver
   LoadModule = controlpanel
   LoadModule = perform
 
-  <Network znc-redhat-devel>
-    LoadModule = simple_away
-    Server     = irc-2.devel.redhat.com 6667
-
-  </Network>
+  <Pass password>
+    Method = sha256
+    Hash = e1fdfe7333452c723c08c80e60c441e34c9771d9a97b929ae247487c262559e4
+    Salt = wsWsjHyW9h9;7W?Qd?iS
+  </Pass>
 </User>
-
