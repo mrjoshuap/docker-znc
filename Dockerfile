@@ -8,7 +8,8 @@ MAINTAINER Josh Preston <jpreston@redhat.com>
 # set our default environment values
 ENV DATADIR="/var/lib/znc" \
     ZNC_VERSION="1.6.1-1" \
-    ZNC_USER="znc"
+    ZNC_USER="995" \
+    ZNC_GROUP="0"
 
 # setup our openshift labels
 LABEL io.k8s.description="ZNC is a portable, open source IRC bouncer written in C++." \
