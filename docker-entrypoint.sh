@@ -2,8 +2,8 @@
 
 tree ${DATADIR}
 
-whoami
-id
+/bin/whoami
+/bin/id
 
 if [ "$1" = "bash" ]; then
   # gimme a shell
