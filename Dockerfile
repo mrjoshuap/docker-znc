@@ -40,6 +40,9 @@ EXPOSE 6667
 # run out of the data directory
 WORKDIR "${DATADIR}"
 
+# export our VOLUME
+VOLUME "${DATADIR}"
+
 # use our entry point script with no command
 ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
 CMD [""]
