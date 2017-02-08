@@ -1,13 +1,17 @@
 # version 1.6.1-1
 # docker-version 1.8.2
-FROM fedora:23
+FROM fedora:24
 
 # maybe get some help?  probably not...
-MAINTAINER Josh Preston <jpreston@redhat.com>
+MAINTAINER Josh Preston <mrjoshuap@redhat.com>
 
 # set our default environment values
 ENV DATADIR="/var/lib/znc" \
-    ZNC_VERSION="1.6.1-1"
+    ZNC_VERSION="1.6.1-1" \
+    IRC_NICK="new_znc_user" \
+    IRC_NICK_ALT="new_znc_user_" \
+    IRC_IDENT="new_znc_user" \
+
 
 # setup our openshift labels
 LABEL io.k8s.description="ZNC is a portable, open source IRC bouncer written in C++." \
@@ -19,7 +23,7 @@ LABEL io.k8s.description="ZNC is a portable, open source IRC bouncer written in 
 # Upgrade system and install znc
 RUN dnf -y upgrade \
     && dnf -y install tree znc \
-    && dnf clean all
+    && dnf -y clean all
 
 # Create 'znc' account we will use to run Ruby application
 RUN mkdir -p ${DATADIR}/configs \
@@ -33,6 +37,9 @@ RUN chmod 666 ${DATADIR}/configs/znc.conf
 
 # add our entry point file
 ADD docker-entrypoint.sh /usr/local/bin/entrypoint.sh
+
+# change to our znc user
+USER znc
 
 # expose our service
 EXPOSE 6667
