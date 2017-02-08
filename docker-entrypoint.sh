@@ -38,6 +38,12 @@ else
     cp /znc.conf.default "${DATADIR}/configs/znc.conf"
   fi
 
+  # Create a self-signed cert if required
+  if [[ ! -f "${DATADIR}/znc.pem" ]]; then
+    openssl req -x509 -newkey rsa:4096 -nodes -keyout key.pem -out cert.pem -days 1001
+    cat key.pem cert.pem > "${DATADIR}/znc.pem"
+  fi
+
   # Make sure $DATADIR is owned by znc user. This effects ownership of the
   # mounted directory on the host machine too.
   echo "Setting necessary permissions..."

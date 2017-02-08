@@ -1,8 +1,8 @@
 build:
-	docker build --tag=${USER}/znc:latest .
+	docker build --tag=mrjoshuap/znc:latest .
 
 run:
-	docker run --detach --publish=6667:6667 --name=znc ${USER}/znc:latest
+	docker run --detach --publish=6667:6667 --name=znc mrjoshuap/znc:latest
 
 logs:
 	docker logs -f znc
@@ -15,6 +15,7 @@ kill:
 
 clean:
 	docker rm znc || echo "already removed"
-	docker rmi ${USER}/znc:latest || echo "already removed"
+	docker rmi mrjoshuap/znc:latest || echo "already removed"
 
 .PHONY: build
+
