@@ -1,8 +1,5 @@
 #! /usr/bin/env bash
 
-# Options.
-DATADIR="/znc-data"
-
 # Magic.
 tree ${DATADIR}
 

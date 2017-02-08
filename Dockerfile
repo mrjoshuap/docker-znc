@@ -1,4 +1,4 @@
-# version 1.6.1-1
+# version 1.6.4-1
 # docker-version 1.8.2
 FROM fedora:24
 
@@ -7,15 +7,14 @@ MAINTAINER Josh Preston <mrjoshuap@redhat.com>
 
 # set our default environment values
 ENV DATADIR="/var/lib/znc" \
-    ZNC_VERSION="1.6.1-1" \
+    ZNC_VERSION="1.6.4-1" \
     IRC_NICK="new_znc_user" \
     IRC_NICK_ALT="new_znc_user_" \
-    IRC_IDENT="new_znc_user" \
-
+    IRC_IDENT="new_znc_user"
 
 # setup our openshift labels
 LABEL io.k8s.description="ZNC is a portable, open source IRC bouncer written in C++." \
-      io.k8s.display-name="ZNC 1.6.1-1" \
+      io.k8s.display-name="ZNC 1.6.4-1" \
       io.openshift.expose-services="6667:ircd" \
       io.openshift.tags="instant-app,irc-bouncer" \
       io.openshift.non-scalable="true"
