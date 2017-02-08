@@ -21,7 +21,7 @@ LABEL io.k8s.description="ZNC is a portable, open source IRC bouncer written in 
 
 # Upgrade system and install znc
 RUN dnf -y upgrade \
-    && dnf -y install tree znc \
+    && dnf -y install openssl tree znc \
     && dnf -y clean all
 
 # Create 'znc' account we will use to run Ruby application
