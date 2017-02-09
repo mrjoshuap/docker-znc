@@ -9,6 +9,9 @@ tree ${DATADIR}
 if [ "$1" = "bash" ]; then
   # gimme a shell
   /bin/bash
+elif [ "$1" = "liveness" ]; then
+  ps -ef | grep znc | grep -v 'ps -ef' || exit 1
+  exit 0
 else
   # start znc
 
